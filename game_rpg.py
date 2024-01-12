@@ -388,7 +388,7 @@ class GameApp:
     
     def windows_about(self):
         windows_about = tk.Toplevel(self.windows)
-        text = tk.Label(windows_about, text="Auteur : Théo Channarond, Afouda Johannes, Yanis Zedira et Aymen Djerad")
+        text = tk.Label(windows_about, text="Vous incarnez un survivant qui se réveille dans une forêt mystérieuse , au cours de cette aventure vous rencontrerez des créatures étrange qui feront tout pour vous éliminer .\n A vous d'être assez courageux et intelligent pour percer le mystère de cet endroit et de vaincre l'entité maléfique derrière tout ca...\n A l'aide de votre votre boussole décider de vous diriger vers l'est , l'ouest , le nord ou le sud. Attention chaque détails compte.\n Auteur : Yanis Zedira et Aymen Djerad")
         text.pack()
 
 if __name__ == "__main__":
